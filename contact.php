@@ -18,25 +18,25 @@ if (isset($_POST['submit'])){
     //validate first name
     if(trim($fname)==""){
         $validform=FALSE;
-        $error1= "*please enter your first name";
+        $error1= "*Please enter your first name";
         $visibility="visible";
     }
     //validate last name
     if(trim($lname)==""){
         $validform=FALSE;
-        $error2= "*please enter your last name";
+        $error2= "*Please enter your last name";
         $visibility="visible";
     }
     //validate email
     if(!$email){
         $validform=FALSE;
-        $error3= "*please enter a valid email";
+        $error3= "*Please enter a valid email";
         $visibility="visible";
     }
      //validate message
      if(trim($msg)==""){
         $validform=FALSE;
-        $error4= "*please enter a message";
+        $error4= "*Please enter a message";
         $visibility="visible";
     }
     else{
@@ -46,7 +46,7 @@ if (isset($_POST['submit'])){
         $_SESSION["lastname"] = $lname;
         $_SESSION["email"] = $email;
         $_SESSION["message"] = $msg;
-        $to = "lam364@cornell.edu"; //CHANGE TO CORRECT ADDRESS
+        $to = "sac.cornell1@gmail.com"; //CHANGE TO CORRECT ADDRESS
         $subject = "South Asian Council Web Form Question";
         $txt = $msg;
         $headers = "From:".$email;
