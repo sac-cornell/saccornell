@@ -1,0 +1,1068 @@
+/* PALETTE
+
+Light Purple: #DDC6EB
+
+*/
+
+/* Font Source: https://www.1001fonts.com/lustria-font.html */
+@font-face {
+    font-family: Lustria;
+    src: url("../lustria/Lustria-Regular.ttf")
+}
+
+/* Font Source: https://www.fontsquirrel.com/fonts/lato */
+@font-face {
+    font-family: Lato;
+    src: url("../lato")
+}
+
+body {
+    margin: 0px;
+    font-family: 'Lustria', serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.citation a:hover {
+    font-style: italic;
+}
+
+img {
+    width: 50%;
+}
+
+figure {
+    margin-right: 0%;
+}
+
+.main{
+    margin-left: 10%;
+}
+
+.main p{
+    color: #b2b2b2;
+    font-size: 30px;
+}
+
+strong {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato';
+}
+
+/** Navigation Styling */
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+}
+
+#nav ul {
+    margin-top: 40px;
+}
+
+#nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+nav a:link, nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #6e518a;
+    font-style: normal;
+}
+
+nav img {
+    width: 100px;
+    margin: 20px 10px;
+}
+
+.current {
+    font-weight: bold;
+}
+/** End Navigation */
+
+
+/** Top of Page */
+.topOfPage h1 {
+    position: absolute;
+    bottom: 90px;
+    margin: 0px;
+}
+
+.topOfPage {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 200px 100px;
+}
+
+.about {
+    background-image: url("/images/team2.jpg");
+}
+
+.events {
+    background-image: url("/images/team2.jpg");
+}
+
+.orgs {
+    background-image: url("/images/team2.jpg");
+}
+
+.mems {
+    background-image: url("/images/team2.jpg");
+}
+
+.resources {
+    background-image: url("/images/team2.jpg");
+}
+
+.contact {
+    background-image: url("/images/team2.jpg");
+}
+
+
+/** Home Styling */
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+#homeTop {
+    text-align: center;
+    padding: 200px;
+    /** Source: South Asian Council prob wanna use a diff pic but just putting this for now*/
+    background-image: url("/images/team2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* About Page Styling */
+.about_page {
+    margin: 5%;
+    margin-bottom: 2%;
+}
+
+.about_page_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    margin-top: 5%;
+}
+
+
+/* Events Page Styling */
+.events_page {
+    margin: 5%;
+    margin-bottom: 2%;
+}
+
+#otherEvents {
+    border-top: black solid 1px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#otherEvents h2 {
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+#eventPhotoBox {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.otherEventBox {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+}
+
+.otherEventBox img {
+    width: 100%;
+}
+
+.source {
+    font-size: 8px;
+    margin-top: 10px;
+    margin-right: 60px;
+    align-self: flex-end;
+}
+
+.eventTitle {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.eventTitle:hover {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.click_events:hover {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.sac_arrow {
+    position: relative;
+    float: right;
+    width:  100px;
+    height: 150px;
+}
+
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.chats {
+    margin: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#cc li {
+    list-style-type: none;
+}
+
+#cc {
+    margin-left: 30%;
+}
+
+.back {
+    margin: 40px 33px;
+}
+
+.back_to_events {
+    color: #6e518a;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 14pt;
+}
+
+.back_to_events:hover {
+    font-weight: bolder;
+}
+
+.mainevent {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.mainevent a {
+    align-self: flex-end;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+.bn_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.b_img:hover {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.events_page_logo {
+    margin: 5%;
+    margin-bottom: 1.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    margin-top: 5%;
+}
+
+.chai {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.chai_pic img {
+    width: 100%;
+}
+
+.chai_pic {
+    margin-right: 20px;
+}
+
+.indiv_chai {
+    margin: 0 5%;
+    display: flex;
+}
+
+.indiv_chai div {
+    width: 50%;
+}
+
+.indiv_chai p {
+    margin-top: 0;
+    width: 100%;
+}
+
+#editor{
+    list-style-type: none;
+}
+
+#small{
+    font-size: 10.5px;
+}
+
+#bolly_box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+/* Members Page Styling */
+.members {
+    padding: 100px 50px;
+    margin-right: 0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.member {
+    width: 300px;
+    margin: 25px 20px;
+    text-align: center;
+}
+
+.member:hover img {
+    transition: .5s ease;
+    /* opacity: 0.5; */
+    filter: grayscale(0%);
+    transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+}
+
+.member img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.member h2 {
+    font-size: 18px;
+}
+
+.mem_page_logo {
+    display: block;
+    margin: auto auto 10px auto;
+    width: 5%;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.modalContent {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: 100px auto;
+}
+
+.modalWords {
+    width: 50%;
+    height: 550px;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.modalPic {
+    width: 50%;
+    padding: 20px 30px;
+}
+
+.modalPic img {
+    width: 100%;
+}
+
+.modalDescript {
+    display: flex;
+    flex-direction: row;
+}
+
+.memPos {
+    font-size: 20px;
+    font-family: 'Lato';
+    margin-bottom: 10px;
+}
+
+.memName {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.memYear, .memMajor, .memMinor {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.memDes {
+    margin-top: 20px;
+    height: 340px;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.memDes p {
+    margin-top: 0px;
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Organizations Page Styling */
+.org_page {
+    margin: 5%;
+    margin-bottom: 2%;
+}
+
+.org_page table {
+    width: 100%;
+}
+
+.org_page th {
+    width: 25%;
+}
+
+.org_page td {
+    height: 150px;
+}
+
+.org_page table, td {
+    border-bottom: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+.org_page p {
+    padding-left: 5%;
+}
+
+.org_page a.button, #editOrg a.button, #addOrg a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    font-size: 70%;
+    font-weight: normal;
+    padding: 2px;
+}
+
+#edit_org {
+    padding-left: 5%;
+    display: flex;
+}
+
+#edit_org_left {
+    flex: 50%;
+}
+
+#edit_org_right {
+    flex: 50%;
+}
+
+#edit_org p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#edit_org h2 {
+    color: black;
+}
+
+#edit_org ul {
+    list-style-type: none;
+}
+
+#allButton {
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+#flexParent {
+    display: flex;
+}
+
+#flexChild {
+    flex: 50%;
+}
+
+#searchTag ul {
+    list-style-type: none;
+}
+
+#searchForm {
+    padding-top: 18px;
+    padding-left: 10%;
+}
+
+#editOrg label {
+    font-weight: normal;
+    font-family: 'Lustria', serif;
+    font-size: 90%;
+}
+
+#editOrg li {
+    padding: 10px 30px 9px 22px;
+  }
+
+#editOrg input {
+    width: 400px;
+}
+
+#editOrg textarea {
+  height: 4em;
+  width: 80%;
+  min-height: 120px;
+}
+
+/* Contact Form Styling */
+.main {
+    margin: 5%;
+    margin-bottom: 2%;
+}
+
+#contactPage form  {
+    display: table;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20%;
+}
+
+#contactPage li {
+    list-style-type: none;
+    text-align: left;
+}
+
+#list{
+    float: left;
+    margin-left: 10%;
+    padding: 0;
+    width: 60%;
+}
+
+#contactPage form input{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    border: 3px solid #efefef;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#contactPage form input:focus{
+    border: 3px solid #d5b8ef;
+    outline: none;
+}
+
+#contact li{
+    padding-bottom: 15px;
+
+}
+
+.label{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+form textarea{
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #efefef;
+    -webkit-transition: 1s;
+    transition: 1s;
+    outline: none;
+    resize: none;
+}
+
+form textarea:focus{
+    border: 3px solid #d5b8ef;
+    outline: none;
+}
+
+#submit{
+    float: right;
+    width: 50%;
+    margin-top: 10%;
+    border: none;
+}
+
+#submit:hover{
+    background-color:  #8b66af;
+    border: none;
+    color: white;
+}
+
+.visible{
+    visibility: visible;
+    font-size: 13px;
+    color:  #8b66af;
+    margin-left: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+/** Form Confirmation Page */
+
+#submit2{
+    width: 50%;
+    padding: 2%;
+    margin-top: 5%;
+    border: none;
+    background-color:  #bababa;
+    border: none;
+    color: white;
+}
+
+#submit2:hover{
+    background-color:  #8b66af;
+    border: none;
+    color: white;
+}
+
+.subtitle{
+    color: #8b66af;
+    font-size: 1.2em;
+    margin-right: 1%;
+}
+
+#confirm{
+    padding-left: 30%;
+}
+
+#confirm li{
+    padding: 2%;
+    background-color: rgb(240, 240, 240);
+    width: 50%;
+}
+
+
+
+/** Footer Styling */
+
+footer {
+    background-color: #6e518a;
+    height: 230px;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+}
+
+footer h3 {
+    color: white;
+}
+
+#loginForm ul {
+    list-style-type: none;
+}
+
+#loginForm li {
+    padding-bottom: 5px;
+}
+
+#loginForm label {
+    display: inline-block;
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#socials {
+    /* background-color: yellow; */
+    width: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 270px auto 70px;
+}
+
+#adminLogin {
+    margin-top: 20px;
+}
+
+.flexRight {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    height: 175px;
+}
+
+.flexRight div {
+    display: block;
+    margin-right: 50px;
+}
+
+.flexRight ul {
+    padding: 0px;
+}
+
+.mediaIcon {
+    position: relative;
+    margin: 10px;
+}
+
+.mediaIcon img {
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+footer img {
+    margin: auto 5px;
+    width: 30px;
+}
+
+.top:hover {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.citation {
+    margin-top: 20px;
+}
+
+.citation p {
+    margin: 10px;
+    font-size: 10px;
+}
+
+footer p, footer a {
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+}
+
+#footerAbt {
+    margin-left: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+#footerAbt p {
+    margin-top: 20px;
+}
+
+/** Resource Styling */
+
+#login input {
+width: 20%;
+}
+
+.wrapper {
+    max-width: 100%;
+    background-color: #6e518a;
+}
+
+.container {
+    height: 100%;
+    margin: 5% 5% 0% 5%;
+    background-color: white;
+    padding: 2%;
+}
+
+.cont-resources {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cont-resources ul {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.resource-grid {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px dotted #222;
+
+}
+
+.resource-grid li {
+    display: list-item;
+    padding: 10px;
+}
+
+.resourceBox {
+    /*! width: 500px; */
+    /*! height: 200px; */
+    /*! display: flex; */
+    /* border-style: solid; */
+    /* border-width: 1px; */
+}
+
+.readBtn {
+    color: #8b66af;
+    font-size: 12px;
+    float: right;
+}
+
+.readBtn:hover {
+    cursor: pointer;
+}
+
+
+.description.hideD {
+    overflow: hidden;
+    line-height: 1em;
+    height: 2em;
+}
+
+.description.showD {
+    height: auto;
+}
+
+.resourceBox .iconField {
+    /*! background: #b2b2b2; */
+    width: 260px;
+    overflow: hidden;
+    height: 200px;
+    margin: 10px;
+}
+
+.resourceBox .iconField img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .3s, filter .5s ease-in-out;
+    filter: grayscale(0);
+}
+  /* The Transformation */
+  .iconField:hover img {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+
+.resourceBox .textField {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #efddff;
+    border-width: 1px;
+    margin: 10px;
+    width: 260px;
+    padding-top: 5px;
+}
+
+.textField .title {
+
+}
+
+.textField .description {
+    /* overflow-y: scroll; */
+    overflow: hidden;
+}
+
+.textField .description .read-more {
+    /* padding: 10px 0; */
+}
+
+
+.textField a {
+    color: #6e518a;
+}
+
+.cont-resources h2 {
+    font-family: 'Lato';
+    color: #b2b2b2;
+    text-align: center;
+    font-size: 50px;
+}
+
+.cont-resources h3 {
+    font-family: 'Lustria';
+    padding: 0;
+    margin: 0;
+}
+
+.cont-resources p {
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+.popup-container {
+    visibility: hidden;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    border: 2px solid #d5b8ef;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    z-index: 4;
+}
+
+.popup-container.active {
+    visibility: visible;
+    /* text-align: center; */
+    display: block;
+}
+
+.popup-content {
+    visibility: hidden;
+    position: relative;
+    margin: 0 auto;
+    background-color: black;
+    margin-top: 12%;
+    width: 50%;
+    height: 50%;
+    overflow-y: auto;
+    /* display: flex; */
+    z-index: 5;
+}
+
+.popup-content.active {
+    visibility: visible;
+}
+
+.popup-container .popup-close {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.add {
+    position: fixed;
+    right: 60px;
+    bottom: 50px;
+    width: 50px;
+    background-color: #d5b8ef;
+    box-shadow: 5px 0px 10px 0 #222;
+    font-size: 50px;
+    color:#efefef;
+    line-height: 50px;
+    border-radius: 50%;
+    border:none;
+ }
+
+ .add:hover {
+    transform: scale(1.1);
+ }
+
+ form #upload{
+    text-align:center;
+  }
+
+  #upload button {
+      cursor: pointer;
+      align-content: center;
+  }
+
+
+  #upload ul {
+    list-style: none;
+    text-align: left;
+  }
+
+  #upload li {
+    padding: 10px 30px 9px 22px;
+  }
+
+  #upload input {
+      width: 400px;
+  }
+
+  #upload textarea {
+    height: 4em;
+    width: 80%;
+    min-height: 120px;
+  }
